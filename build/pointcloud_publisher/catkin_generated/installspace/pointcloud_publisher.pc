@@ -1,0 +1,8 @@
+prefix=/home/peter/groovy_workspace/install
+
+Name: pointcloud_publisher
+Description: Description of pointcloud_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/peter/groovy_workspace/install/lib 
+Requires: 

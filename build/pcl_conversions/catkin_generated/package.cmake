@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "pcl_conversions")
+set(pcl_conversions_MAINTAINER "William Woodall <william@osrfoundation.org>")
+set(pcl_conversions_DEPRECATED "")
+set(pcl_conversions_VERSION "0.1.6")
+set(pcl_conversions_BUILD_DEPENDS "libpcl-all-dev" "pcl_msgs" "roscpp" "sensor_msgs" "std_msgs")
+set(pcl_conversions_RUN_DEPENDS "libpcl-all" "libpcl-all-dev" "pcl_msgs" "roscpp" "sensor_msgs" "std_msgs")
+set(pcl_conversions_BUILDTOOL_DEPENDS "catkin")

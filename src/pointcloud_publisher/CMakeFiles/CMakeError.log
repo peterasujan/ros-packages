@@ -1,0 +1,53 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/peter/groovy_workspace/src/pointcloud_publisher/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec407997866/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec407997866.dir/build.make CMakeFiles/cmTryCompileExec407997866.dir/build
+make[1]: Entering directory `/home/peter/groovy_workspace/src/pointcloud_publisher/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/peter/groovy_workspace/src/pointcloud_publisher/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec407997866.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec407997866.dir/CheckSymbolExists.c.o   -c /home/peter/groovy_workspace/src/pointcloud_publisher/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec407997866
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec407997866.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec407997866.dir/CheckSymbolExists.c.o  -o cmTryCompileExec407997866 -rdynamic 
+CMakeFiles/cmTryCompileExec407997866.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec407997866] Error 1
+make[1]: Leaving directory `/home/peter/groovy_workspace/src/pointcloud_publisher/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec407997866/fast] Error 2
+
+File /home/peter/groovy_workspace/src/pointcloud_publisher/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/peter/groovy_workspace/src/pointcloud_publisher/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3234960272/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3234960272.dir/build.make CMakeFiles/cmTryCompileExec3234960272.dir/build
+make[1]: Entering directory `/home/peter/groovy_workspace/src/pointcloud_publisher/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/peter/groovy_workspace/src/pointcloud_publisher/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3234960272.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3234960272.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3234960272
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3234960272.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3234960272.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3234960272 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3234960272] Error 1
+make[1]: Leaving directory `/home/peter/groovy_workspace/src/pointcloud_publisher/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3234960272/fast] Error 2
+
+

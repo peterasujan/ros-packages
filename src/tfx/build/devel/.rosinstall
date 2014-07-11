@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/peter/groovy_workspace/src/tfx/build/devel/setup.sh

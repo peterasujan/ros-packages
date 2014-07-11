@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "kinect_transform")
+set(kinect_transform_MAINTAINER "peter <peter@todo.todo>")
+set(kinect_transform_DEPRECATED "")
+set(kinect_transform_VERSION "0.0.0")
+set(kinect_transform_BUILD_DEPENDS "rospy" "std_msgs")
+set(kinect_transform_RUN_DEPENDS "rospy" "std_msgs")
+set(kinect_transform_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/peter/groovy_workspace/install
+
+Name: kinect_transform
+Description: Description of kinect_transform
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/peter/groovy_workspace/install/lib 
+Requires: 

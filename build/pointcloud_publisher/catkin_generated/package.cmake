@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "pointcloud_publisher")
+set(pointcloud_publisher_MAINTAINER "Jane Doe <jane.doe@example.com>, peter <peter@todo.todo>")
+set(pointcloud_publisher_DEPRECATED "")
+set(pointcloud_publisher_VERSION "0.0.0")
+set(pointcloud_publisher_BUILD_DEPENDS "message_generation" "pcl" "pcl_ros" "roscpp" "sensor_msgs" "pcl_conversions")
+set(pointcloud_publisher_RUN_DEPENDS "message_runtime" "pcl" "pcl_ros" "roscpp" "sensor_msgs" "pcl_conversions")
+set(pointcloud_publisher_BUILDTOOL_DEPENDS "catkin" "catkin")

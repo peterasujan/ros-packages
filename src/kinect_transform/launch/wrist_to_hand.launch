@@ -1,0 +1,3 @@
+<launch>
+<node pkg="tf" type="static_transform_publisher" name="static3" args="-0.0130990276633 -0.0319967043199 -0.00831727944938 0.49488517409 0.465088305075 0.520358350824 0.517695585915 r_gripper_tool_frame hand_kinect_optical_frame 100" />
+</launch>
