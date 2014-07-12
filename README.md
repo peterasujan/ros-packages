@@ -1,0 +1,1 @@
+These are packages created or modified for the purpose of using the PrimeSense Carmine in conjunction with the PR2 robot.
